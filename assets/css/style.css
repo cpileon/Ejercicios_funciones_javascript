@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.caja-container{
+    display: flex;
+    justify-content: center;
+}
+
+#warning{
+    color:red;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#texto3{
+    display: flex;
+    align-items: center;
+    width: 250px;
+
+}
+
+#previewColor{
+    width: 20px;
+    height: 20px;
+    border: solid 1px black;
+    border-radius: 50%;
+    margin: 0.5%;
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    margin: 1%;
+}
+
+#box-1{
+    background-color: palegreen;
+}
+
+#box-2{
+    background-color: paleturquoise;
+}
+
+#box-3{
+    background-color: palegoldenrod;
+}
+
+#box-4{
+    background-color: palevioletred;
+}

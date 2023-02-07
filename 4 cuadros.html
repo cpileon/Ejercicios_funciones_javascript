@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Desafío funciones - Cuadros</title>
+    
+</head>
+<body>
+    <div id="container">
+        <h1>Cuadros que cambian de color</h1>
+        <p>Presiona alguna de las siguientes teclas en el teclado para seleccionar alguno de estos colores:</p>
+        <ul>
+            <li>Presiona a/A para seleccionar el color <spam style = "color: black; font-weight: bold;">negro</li>
+            <li>Presiona s/S para seleccionar el color <spam style = "color: red; font-weight: bold;">rojo</li>
+            <li>Presiona d/D para seleccionar el color <spam style = "color: gray; font-weight: bold;">gris</li>
+        </ul>
+        <p>Cuando selecciones uno de los tres colores, haz click en alguna de las 4 cajas para cambiar su color.</p>
+        <div id="texto3">
+            <p>El color seleccionado es: </p> <div id="previewColor"></div> 
+        </div>
+
+        <div class="caja-container">
+            <div class="caja" id="box-1">
+            </div>
+            <div class="caja" id="box-2">
+            </div>
+            <div class="caja" id="box-3">
+            </div>
+            <div class="caja" id="box-4">
+            </div>
+        </div>
+        <span id="warning"></span>
+    </div>
+    <script src="./assets/js/scriptcuadros.js"></script>
+</body>
+</html>
